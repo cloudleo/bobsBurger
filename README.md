@@ -1,5 +1,7 @@
 # Bob's Burger of the Day (BOTD)
 
+video of the project [https://drive.google.com/file/d/1OQiCGFBkeBdbdd3VeTlLxxSgXqYOvAfz/view?usp=sharing]
+
 For this assessment you will be building a simple `app` that will help Bob collect new `Burger of the Day` ideas. Then he and anyone with access to the site will be able to vote on the BOTD ideas with either a simple `upvote` or `downvote`. We don't care how many times they vote.
 
 When Bob & team likes a BOTD idea, double clicking the BOTD `card` should update the record in the `API` as approved and change the display text to green.

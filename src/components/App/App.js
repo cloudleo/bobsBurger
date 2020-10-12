@@ -80,7 +80,7 @@ function App() {
 							active={active} 
 						/>)) :  (<Loading />)
 		  	}
-		  	<Paging setIndex={setIndex} index={index} length={burgers.length}/>
+		  	<Paging setIndex={setIndex} length={burgers.length}/>
 		  	<div className="imageContainer">
 		    	<img src="/assets/bobBurgers.png" alt="Bobs peeking" />
 		  	</div>
