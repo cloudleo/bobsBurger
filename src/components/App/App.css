@@ -1,0 +1,56 @@
+body {
+	position: relative;
+	height: 90vh;
+	color: #7b7d83;
+}
+.App {
+	margin: 0 auto;
+	width: 50%;
+	font-family: "Comic Sans MS";
+}
+
+.title {
+	font-size: 25px;
+	color: #ce2b2b;
+}
+
+hr {
+	margin-top: 30px;
+	height: 1px;
+	background-color: black;
+}
+
+.App .blTitle {
+	font-size: 55px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.imageContainer {
+	width: 400px;
+	height: 320px;
+	overflow: hidden;
+    position: absolute;
+    left: -201px;
+    bottom: 55px;
+	transform: rotateZ(36deg);    
+}
+
+@media only screen and (max-width: 770px) {
+  .App {
+    width: 90%;
+  }
+
+  .imageContainer {
+  	display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .App .blTitle {
+    font-size: 40px;
+  }
+
+
+}
+

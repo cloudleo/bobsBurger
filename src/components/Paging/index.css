@@ -1,0 +1,12 @@
+.paging {
+	margin-top: 15px;
+	float: right;
+}
+
+.paging input {
+	-webkit-box-shadow: 6px 4px 4px 0px rgba(0,0,0,0.59);
+	-moz-box-shadow: 6px 4px 4px 0px rgba(0,0,0,0.59);
+	box-shadow: 6px 4px 4px 0px rgba(0,0,0,0.59);	
+	margin-left: 5px;
+	width: 30px;
+}

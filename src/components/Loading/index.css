@@ -1,0 +1,8 @@
+.gif {
+	width: 30%;
+    margin: 20px auto;
+}
+
+.gif + p {
+	text-align: center;
+}

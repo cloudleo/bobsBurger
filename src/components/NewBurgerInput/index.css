@@ -1,0 +1,65 @@
+.burgerInput {
+	width: 100%;
+	display: inline-grid;
+	grid-template-columns: 90% auto;
+}
+.burgerInput input {
+	height: 30px;
+	font-size: 20px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);	
+}
+
+.burgerInput input:focus {
+    outline: none;
+}
+
+.burgerInput button {
+	margin-left: 2%;
+	height: 36px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	background-color: #ce2b2b;
+	border-style: solid;
+	color: white;	
+}
+
+.burgerInput button:hover {
+	cursor: pointer;
+}
+
+.burgerInput button:focus {
+    outline: none;
+}
+
+
+.error {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.error::placeholder {
+  color: #ce2b2b;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

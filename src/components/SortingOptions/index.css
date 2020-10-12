@@ -1,0 +1,37 @@
+.filters {
+	height: 30px;
+	display: grid;
+	grid-template-columns: repeat(5, 20% [col-start]);
+	width: 100%;
+	border-style: solid;
+	border-width: 2px;
+	margin-bottom: 15px;
+	-webkit-box-shadow: 13px 7px 4px 0px rgba(0,0,0,0.59);
+	-moz-box-shadow: 13px 7px 4px 0px rgba(0,0,0,0.59);
+	box-shadow: 13px 7px 4px 0px rgba(0,0,0,0.59);
+}
+
+.filters button {
+	margin: 0;
+}
+
+.filters button.active {
+	background-color: #ce2b2b;
+	border-style: solid;
+	color: white;
+}
+.filters button:focus {
+    outline: none;
+}
+
+.filters button:hover {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+  .filters button {
+    font-size: 10px;
+  }
+
+
+}
